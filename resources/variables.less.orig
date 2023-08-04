@@ -39,11 +39,11 @@
 /**
  * Citizen sans-serif fonts
  */
-@font-family-base: 'Nunito Sans', sans-serif;
+@font-family-base: 'Roboto', 'Noto Sans CJK', system-ui, -apple-system, sans-serif;
 /**
  * Citizen serif fonts
  */
-@font-family-serif: 'Nunito Sans', sans-serif;
+@font-family-serif: 'Roboto Serif', 'Noto Serif CJK', 'Linux Libertine', 'Georgia', 'Times', 'Source Serif Pro', serif;
 /**
   * Citizen monospace fonts
   */

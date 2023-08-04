@@ -1,0 +1,33 @@
+--- resources/variables.less
++++ resources/variables.less
+@@ -5,8 +5,8 @@
+ @import 'mediawiki.mixins';
+ 
+ /* == Breakpoints == */
+-/** Minimum available screen width at which responsive design should activate (styles can use other breakpoints if desired). */
+-@screen-xs: 576px;
++/** Minimum available screen width at which responsive design should activate (styles can use other breakpoints if desired). **/
++@screen-xs: 576px;
+ /** Minimum available screen width at which sidebar is shown, used in responsive design. */
+ @screen-sm: 768px;
+ /** Minimum available screen width at which content is made wide. */
+@@ -22,14 +22,14 @@
+ /** Icon font size. **/
+ @icon-font-size: 1.5rem;
+ 
+-// Body font
+-@font-family-base: 'Roboto', 'Noto Sans CJK', system-ui, -apple-system, sans-serif;
+-@font-family-serif: 'Roboto Serif', 'Noto Serif CJK', 'Linux Libertine', 'Georgia', 'Times', 'Source Serif Pro', serif;
+-@font-family-monospace: 'Roboto Mono', 'Menlo', 'Consolas', 'Liberation Mono', 'Fira Code', 'Courier New', monospace;
++// Body font (change to Nunito Sans)
++@font-family-base: 'Nunito Sans', sans-serif;
++@font-family-serif: 'Nunito Sans', sans-serif;
++@font-family-monospace: 'Nunito Sans', sans-serif;
+ 
+ /** Set the global font size for the site. **/
+ @body-font-size: 1rem;
+-@base-font-size: 16px; // Set this to change all font sizes
++@base-font-size: 16px; // Set this to change all font sizes
+ 
+ /* Typography styles */
+ @line-height-base: 1.6rem;
